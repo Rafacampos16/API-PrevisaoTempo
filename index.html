@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Previsão do Tempo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="icon2.png" type="image/x-icon">
+</head>
+<body>
+  <button id="toggle-dark-mode" class="dark-mode-btn">Alternar Tema</button>
+
+  <div class="container">
+    <h1 class="app-title">Previsão do Tempo</h1>
+    <div class="search-container">
+      <input type="text" id="city-input" placeholder="Digite o nome da cidade">
+      <button id="search-btn">Buscar</button>
+    </div>
+
+    <div class="weather-info">
+      <h2 id="city-name">Cidade</h2>
+      <div class="weather-display">
+        <i id="weather-icon" class="wi"></i>
+        <p id="description">--</p>
+      </div>
+      <p id="temperature">--°C</p>
+      <div class="additional-info">
+        <p id="humidity">Umidade: --%</p>
+        <p id="wind-speed">Vento: -- km/h</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

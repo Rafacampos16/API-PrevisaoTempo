@@ -1,0 +1,151 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    color: #333;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  body.dark-mode {
+    background: linear-gradient(to bottom, #1e1e1e, #333);
+    color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  body.dark-mode .container {
+    background: rgba(50, 50, 50, 0.9);
+  }
+  
+  .app-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #city-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  #search-btn {
+    padding: 10px 15px;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  #search-btn:hover {
+    background: #00c6ff;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .weather-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  #weather-icon {
+    font-size: 5rem;
+    margin-bottom: 10px;
+  }
+  
+  
+  #description {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+  
+  #temperature {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .additional-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .dark-mode-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .dark-mode-btn:hover {
+    background: #fff;
+    color: #333;
+  }
+  
+  #weekly-forecast {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  #weekly-forecast h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  #weekly-forecast div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  #weekly-forecast i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  
+  #weekly-forecast p {
+    margin: 0;
+  }
+  
