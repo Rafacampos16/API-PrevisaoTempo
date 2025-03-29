@@ -22,6 +22,12 @@ Este projeto é uma aplicação web que exibe a previsão do tempo de qualquer c
 
 ## ⚡ Como Executar  
 
+Você pode acessar a aplicação diretamente pelo link:  
+
+🔗 **[Clima Tempo API](https://clima-tempo-api.netlify.app)**  
+
+Ou, se preferir rodar localmente:  
+
 1. Clone este repositório:  
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
